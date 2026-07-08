@@ -105,6 +105,9 @@ if (isset($_GET['id'])) {
                     <span class="text-green-600">
                         <i class="fa-solid fa-user mr-1"></i><?php echo htmlspecialchars($_SESSION['username']); ?>
                     </span>
+                    <a href="change_email.php" class="hover:text-green-300 transition">
+                        <i class="fa-solid fa-gear mr-1"></i>Settings
+                    </a>
                     <a href="logout.php" class="bg-red-500/10 border border-red-500/40 text-red-400 px-3 py-1 rounded hover:bg-red-500/20 transition">
                         <i class="fa-solid fa-right-from-bracket mr-1"></i>Logout
                     </a>
